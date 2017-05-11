@@ -19,7 +19,7 @@ Donations (BTC: [14qd36n1viYAWzajZgaTQq4tPUZcEUtfcz](http://blockr.io/address/in
 The following returns a list of all the balances
 
 ```javascript
-i.balance({apikey: '', apisecret: '', endpoint: 'balance'}, function(cb) {
+i.private.balance({apikey: '', apisecret: '', endpoint: 'balance'}, function(cb) {
   console.log(cb);
 });
 ```
@@ -27,7 +27,7 @@ i.balance({apikey: '', apisecret: '', endpoint: 'balance'}, function(cb) {
 ### Transaction History
 
 ```javascript
-i.transactions({apikey: '', apisecret: ''}, function(cb) {
+i.private.transactions({apikey: '', apisecret: ''}, function(cb) {
   console.log(cb);
 })
 ```
