@@ -29,7 +29,8 @@ module.exports = {
       });
     },
     customendpoint: (params, endpoint, cb) => {
-      apirequest.private({apikey: params.apikey, apisecret: params.apisecret, endpoint: endpoint}, function(resultcb) {
+      var inputParams = {apikey: params.apikey, apisecret: params.apisecret, endpoint: endpoint};
+      apirequest.private(inputParams, function(resultcb) {
         if (resultcb.message == "Done") {
           cb(resultcb.response);
         } else {
