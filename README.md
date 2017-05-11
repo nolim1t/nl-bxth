@@ -11,3 +11,11 @@ i.balance({apikey: '', apisecret: '', endpoint: 'balance'}, function(cb) {
   console.log(cb);
 });
 ```
+
+### Transaction History
+
+```javascript
+i.transactions({apikey: '', apisecret: ''}, function(cb) {
+  console.log(cb);
+})
+```
