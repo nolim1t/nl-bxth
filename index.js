@@ -1,6 +1,21 @@
 var apirequest = require('./lib/request');
 
 module.exports = {
+  public : {
+    orderbook: (params, cb) => {
+      if (params.pairing !== undefined) {
+        apirequest.public({endpoint: 'orderbook', pairing: params.pairing}, function(ordercb) {
+          if (ordercb.message == "Done") {
+            cb({message: "Done", orderbook: ordercb.response});
+          } else {
+            cb({message: ordercb.message});
+          }
+        });
+      } else {
+        cb({message: "Invalid Parameters"});
+      }
+    }
+  },
   private: {
     balance: (params, cb) => {
       apirequest.private({apikey: params.apikey, apisecret: params.apisecret, endpoint: 'balance'}, function(balcb) {
