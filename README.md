@@ -4,6 +4,13 @@
 
 My own API Library for [BX.in.th](https://bx.in.th). Reference library [here](https://bx.in.th/info/api/)
 
+
+## Installing
+
+```bash
+npm i nl-bxth
+```
+
 ## Contributing
 
 All contributions are welcome and appreciated. Open Source is a meritocracy who doesn't care who you are.
