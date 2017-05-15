@@ -1,5 +1,7 @@
 # BX.in.th api
 
+[![npm version](https://badge.fury.io/js/nl-bxth.svg)](https://badge.fury.io/js/nl-bxth)
+
 ## About
 
 My own API Library for [BX.in.th](https://bx.in.th). Reference library [here](https://bx.in.th/info/api/)
