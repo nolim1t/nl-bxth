@@ -46,3 +46,21 @@ i.private.transactions({apikey: '', apisecret: ''}, function(cb) {
 ```javascript
 i.public.orderbook({pairing: '1'}, (cb) => {console.log(cb.orderbook);});
 ```
+
+### Create order
+
+#### Create sell order 1 bitcoin for 1 million baht :D
+
+```javascript
+i.private.customendpoint({apikey: '', apisecret: '', pairing: '1', type: 'sell', amount: '1.0', rate: '1000000'}, 'order', (cb) => {
+  console.log(cb);
+});
+```
+
+#### Create buy order 1 bitcoin for 1 thousand baht :)
+
+```javascript
+i.private.customendpoint({apikey: '', apisecret: '', pairing: '1', type: 'buy', amount: '1.0', rate: '1000'}, 'order', (cb) => {
+  console.log(cb);
+});
+```
