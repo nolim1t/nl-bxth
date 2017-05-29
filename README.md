@@ -40,3 +40,9 @@ i.private.transactions({apikey: '', apisecret: ''}, function(cb) {
   console.log(cb);
 })
 ```
+
+### Orderbook
+
+```javascript
+i.public.orderbook({pairing: '1'}, (cb) => {console.log(cb.orderbook);});
+```
