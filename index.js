@@ -14,8 +14,18 @@ module.exports = {
       } else {
         cb({message: "Invalid Parameters"});
       }
+    },
+    pairing: (cb) => {
+      apirequest.public({endpoint: 'pairing'}, function(pairingcb) {
+        if (pairingcb.message == "Done") {
+          cb({message: "Done", pairing: pairingcb.response});
+        } else {
+          cb({message: pairingcb.message});
+        }
+      })
     }
   },
+  
   private: {
     balance: (params, cb) => {
       apirequest.private({apikey: params.apikey, apisecret: params.apisecret, endpoint: 'balance'}, function(balcb) {
