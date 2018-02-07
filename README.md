@@ -23,6 +23,14 @@ Donations (BTC: [14qd36n1viYAWzajZgaTQq4tPUZcEUtfcz](http://blockr.io/address/in
 
 ## Examples
 
+### Get Currency Parings
+
+```javascript
+  i.public.pairing((cb) => {
+    console.log(cb.pairing);
+  });
+```
+
 ### Get Balance
 
 The following returns a list of all the balances
