@@ -19,7 +19,7 @@ All contributions are welcome and appreciated. Open Source is a meritocracy who 
 
 Issues
 Pull Requests
-Donations (BTC: [14qd36n1viYAWzajZgaTQq4tPUZcEUtfcz](http://blockr.io/address/info/14qd36n1viYAWzajZgaTQq4tPUZcEUtfcz) / LTC: [LSGfxUoJSC3qYsTC6DwyvKvYfDwTVXrcE2](http://ltc.blockr.io/address/info/LSGfxUoJSC3qYsTC6DwyvKvYfDwTVXrcE2) / [Dollars](https://donate.nolim1t.co))
+Donations (BTC: [14qd36n1viYAWzajZgaTQq4tPUZcEUtfcz](https://blockchain.info/address/14qd36n1viYAWzajZgaTQq4tPUZcEUtfcz) / LTC: [LSGfxUoJSC3qYsTC6DwyvKvYfDwTVXrcE2](http://explorer.litecoin.net/address/LSGfxUoJSC3qYsTC6DwyvKvYfDwTVXrcE2)
 
 ## Examples
 
